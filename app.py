@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load pre-trained model and vectorizer
-model = joblib.load(r"C:\Users\91878\AI COURSE DIGICROME\project7\disaster_classifier.pkl")
+model = joblib.load(r"https://github.com/dharm4888/project7/blob/main/disaster_classifier.pkl")
 tfidf = joblib.load(r'C:\Users\91878\AI COURSE DIGICROME\project7\tfidf_vectorizer.pkl')
 
 # Text cleaning function (must match preprocessing during training)
